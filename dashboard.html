@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Resume Fraud Detection Dashboard</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body{
+            background: linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+            min-height:100vh;
+            color:white;
+        }
+
+        .card{
+            border-radius:18px;
+            box-shadow:0 10px 25px rgba(0,0,0,0.25);
+        }
+
+        .btn-main{
+            padding:14px 28px;
+            font-size:18px;
+            border-radius:10px;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container py-5">
+
+    <!-- TITLE -->
+    <h1 class="text-center mb-4">
+        AI Resume Fraud Detection System
+    </h1>
+
+    <p class="text-center mb-5">
+        Intelligent system to detect fake resumes, duplicate profiles, and suspicious experience patterns using AI validation.
+    </p>
+
+    <!-- DASHBOARD CARDS -->
+    <div class="row justify-content-center">
+
+        <!-- Upload Resume -->
+        <div class="col-md-4 mb-4">
+            <div class="card p-4 text-center bg-light text-dark">
+                <h4>Upload Resume</h4>
+                <p>Validate resumes using AI fraud detection engine</p>
+                <a href="/upload" class="btn btn-primary btn-main">
+                    Start Validation
+                </a>
+            </div>
+        </div>
+
+        <!-- API Docs -->
+        <div class="col-md-4 mb-4">
+            <div class="card p-4 text-center bg-light text-dark">
+                <h4>API Documentation</h4>
+                <p>View available endpoints & integration guide</p>
+                <a href="/api" class="btn btn-success btn-main">
+                    View API Docs
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
